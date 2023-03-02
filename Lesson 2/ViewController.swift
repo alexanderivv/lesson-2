@@ -134,7 +134,8 @@ class ViewController: UIViewController {
     
         switch aNumber % 2 != 0 {
 
-                case true where aNumber > 10 :
+                
+        case true where aNumber > 10 :
                     print("число \(aNumber) нечетное и больше 10")
 
                 case true where aNumber <= 10 :
